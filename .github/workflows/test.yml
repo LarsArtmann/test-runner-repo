@@ -4,5 +4,5 @@ jobs:
   test:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - run: echo "Runner working!" && pwd && whoami
